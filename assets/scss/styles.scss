@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+// .slimscroll{
+//     height: 'auto';
+//     position: 'right';
+//     size: "8px";
+//     color: '#9ea5ab';
+// }
+
+._center-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._right-items{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+._footer-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 30px
+}
+
+
+/* Here */
+$gris-disabled: #ced0d1;
+.card-box {
+    padding: 15px 20px 20px 20px;
+}
+.span-order::after {
+    content: "";
+    width: 1px;
+    height: 20px;
+    margin: -4px 15px;
+    background: $gris-disabled;
+    display: inline-block;
+  }
+.content-page .content {
+    padding-top: 0px;
+}
+.rd-btn {
+    border-radius: 50%;
+    padding: 0px;
+    width: 15.5px;
+    margin-right: 9px;
+    font-size: 9px;
+    background: $gris-disabled;
+    border-color: $gris-disabled;
+    color: $gris-disabled;
+}
+.rd-btn:not(:disabled):not(.disabled):active,
+.rd-btn:not(:disabled):not(.disabled).active,
+.show > .rd-btn.dropdown-toggle {
+    color:#fff;
+    background-color: #2acc4f;
+    border-color: #2acc4f;
+}
+.filedrag{
+    position: absolute; width: 100%; height: 38px; z-index: -1;
+}
+.filestyle{
+    position: absolute; clip: rect(0px, 0px, 0px, 0px);
+}
+.controlfiles{
+    border-top-left-radius: 0.25rem; border-bottom-left-radius: 0.25rem;
+}
